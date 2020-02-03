@@ -7,7 +7,7 @@ RSpec.describe Post, type: :model do
     end
 
     it 'can be created' do
-      expect(@post). to be_valid
+      expect(@post).to be_valid
     end
 
     it 'cannot be created without a date and rationale' do
@@ -17,3 +17,8 @@ RSpec.describe Post, type: :model do
     end
   end
 end
+
+
+
+
+
